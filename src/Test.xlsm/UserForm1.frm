@@ -17,4 +17,6 @@ Option Explicit
 
 Sub Test()
 
+  '“ú–{Œê
+  
 End Sub
