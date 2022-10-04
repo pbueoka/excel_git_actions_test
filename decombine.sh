@@ -21,7 +21,7 @@ cd $copyToPath
 # デコンバイン実行
 cmd.exe /c cscript vbac.wsf decombine
 # デコンバイン後のsrc/{Excelマクロ名}にある全ファイルを、
-# リポジトリのsrc/{Excelマクロ名}に上書きコピー
+# リポジトリのsrc/{Excelマクロ名}にある全ファイルに上書きコピー
 cp -f ./src/*/*.* $repoPath/src/*
 
 # # 注！：万が一、copyToPathが誤っていたら大変なことになるのでコメントアウト。
